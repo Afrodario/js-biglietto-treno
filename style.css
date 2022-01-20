@@ -1,0 +1,13 @@
+.price_box {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.price_box img {
+    width: 100px;
+}
+
+h2 {
+    color: red;
+}
