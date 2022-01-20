@@ -1,7 +1,7 @@
 let kmNumber = parseInt(prompt("Quanti chilometri vuole percorrere?"));
 let passengerAge = parseInt(prompt("Quanti anni ha?"));
 
-let pricePerKm = 0.21;
+const pricePerKm = 0.21;
 
 let ticketPrice = kmNumber * pricePerKm;
 
@@ -15,6 +15,6 @@ if (passengerAge < 18) {
     document.getElementById("info").innerHTML = "E' stato applicato uno sconto del 40% per over 65"; 
 } else {
     document.getElementById("price_result").innerHTML = "Il costo del suo biglietto è di " + ticketPrice.toFixed(2) + "€";
-    document.getElementById("info").innerHTML = "Buon viaggio!"; 
+    document.getElementById("info").innerHTML = "Buon viaggio!";
 }
 
